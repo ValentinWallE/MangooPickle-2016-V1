@@ -1,0 +1,1069 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: lighter;
+}
+/*////////////Homepage////////////*/
+
+@font-face {
+    font-family: "MenuPara";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Manuscrit";
+    src: url(../fonts/Prof._Jorge.ttf);
+}
+html,
+body {
+    height: 100%;
+    color: #666666;
+}
+.descHide,
+.descHide1,
+.descHide2,
+.descHide3,
+.descHide4,
+.descHide5,
+.descHide6,
+.descHide7,
+.descHide8,
+.descHide9 {
+    font-size: 0.8em;
+}
+p {
+    font-size: 0.8em;
+}
+#poneServices p {
+    font-size: 0.8em;
+    
+}
+#poneServices h3 {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+#ptwoServices p {
+    font-size: 0.8em;
+}
+a {
+    text-decoration: none;
+}
+#lienManu:visited {
+    color: #30fec1;
+}
+#wrapper {
+    height: 100vh;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2em
+}
+#wrapperMangoo {
+    width: 100%;
+    margin: 0 auto;
+   margin-bottom: 2em;
+}
+header img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+section {
+    max-width: 100%;
+}
+section img {
+    max-width: 100%;
+}
+
+/*@font-face{
+    font-family:pickle;
+    src:url();
+}*/
+
+p {
+    /* text-align: justify;*/
+    
+    font-size: 0.8em;
+    margin-top: 1em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+h3 {
+    font-family: MenuPara;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 0.9em;
+}
+#asavoir {
+    margin-top: 2em;
+}
+#asavoir p {
+    font-size: 0.8em;
+    text-align: center;
+}
+#paraInd h3 {
+    margin-top: 1em;
+}
+#paraInd p {
+    padding-left: 0px;
+    margin-bottom: 4em;
+    font-size: 0.8em;
+}
+#mangooArtmain {
+    display: none;
+}
+span {
+    padding: 2em;
+}
+#cf {
+    display: none;
+}
+#charslol img {
+    height: auto;
+    /* width: 20em;*/
+    
+    border-radius: 50%;
+    margin: 0 auto;
+}
+nav {
+    z-index: 100;
+    position: relative;
+}
+#charslol {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+#contactform {
+    width: auto;
+    margin: 0 auto;
+    width: 400px;
+    position: bottom;
+}
+#hcontact {
+    margin: 0 auto;
+    text-align: center;
+}
+label {
+    display: block;
+}
+input {
+    height: 2em;
+    min-width: 300px;
+    max-width: 100%;
+}
+textarea {
+    min-width: 300px;
+    max-width: 100%;
+}
+/*CONTACT*/
+
+#contactPform {
+    width: auto;
+    list-style: none;
+    padding: 1em;
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 5em;
+}
+#contactPform li {
+    text-align: center;
+}
+.descHide p {
+    font-size-adjust: auto;
+}
+.content {
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+/*.mainForm {
+   width:100%;
+    margin: 0 auto;
+    
+}*/
+
+.test {
+    width: 6em;
+    height: 6em;
+}
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.contact ul li {
+    width: 80%;
+    height: auto;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.5em;
+}
+.contact a {
+    display: inline-block;
+}
+.contact ul li a img {
+    width: 20px;
+    height: auto;
+}
+#wtf {
+    display: none;
+}
+.testHome {
+    display: none;
+    
+}
+.testHome2 {
+    display: none;
+}
+#projetsSimg {
+    width: 100%;
+}
+
+#projetsS{
+    margin-bottom:2em;
+}
+input {
+    border: 1px solid #30fec1;
+    background-color: white;
+}
+textarea {
+    border: 1px solid #30fec1;
+    resize: none;
+}
+#burger {
+    width: 15%;
+    height: auto;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+}
+.descHidem {
+    display: none;
+}
+
+#teamdesc {
+    margin-bottom: 2em;
+    padding-left: 0px;
+}
+#teamdesc p {
+    padding-left: 0px;
+    font-size: 0.8em;
+}
+#teamdesc h3 {
+    text-align: center;
+    margin-bottom: 2 em;
+    margin-top: 3em;
+}
+.promo30 {
+    display: none;
+    width: 1px;
+    height: auto;
+}
+
+#socialswtf {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -2em;
+    margin-left: 5em;
+}
+.footer {
+    bottom: 0px;
+    position: relative;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 0.5em;
+    /*display:block;*/
+}
+#testServicesimg {
+    display: none;
+}
+#teamDesk {
+    display: none;
+}
+.menuMobile {
+    width: 100%;
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+}
+.socialIcons {
+    width: 5em;
+    height: auto;
+}
+.paraPacks {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 6%;
+    font-size: 1.2em;
+}
+.paraPacks2 {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-right: 1.5em;
+    margin-top: 6%;
+}
+@font-face {
+    font-family: "MenuPara";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Manuscrit";
+    src: url(../fonts/Prof._Jorge.ttf);
+}
+#lienManu {
+    font-family: Manuscrit;
+    font-size: 2em;
+    text-transform: lowercase;
+}
+p {
+    font-family: MenuPara;
+    word-spacing: 2pt;
+    font-size: 1.2em;
+}
+h1 h2 h3 {
+    font-family: MenuPara;
+}
+#work {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#work img {
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#work p {
+    font-size: 20px;
+    text-align: center;
+}
+#closeupimg img{
+    width: 100%;
+    margin-top: 2em;
+}
+#paraServices {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+#servicesS{
+    margin-bottom: 2em;
+}
+#descInd {
+    width: 80%;
+    margin: 0 auto;
+}
+#teamdesc {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+#projetsS p {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+#projetsS div {
+    width: 100%;
+    /* display:block;*/
+}
+#projetsPara {
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+}
+#projetsPara p {
+    padding-left: 0px;
+    font-size: 0.8em;
+    margin: 0 auto;
+}
+#projetsPara h3 {
+    margin-left: 1em;
+}
+nav li a {
+    font-size: 1em;
+}
+#wrapperContact {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom:2em;
+}
+.menu {
+    margin-bottom: 0px;
+    margin-top: 1px !important;
+}
+#testpar {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#projetsPara h3 {
+    margin-left: 1em;
+}
+
+#BArrow{
+    display: none;
+}
+
+#flecheprojets{
+        margin: 4em 0 0 7em;
+        position: absolute;
+        width: 3em;
+        transform: rotate(160deg);
+    }
+ 
+
+
+/* DESKTOP 1920 x 1080 */
+
+@media screen and (min-width: 780px) {
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+    #projetsS div {
+        width: 96%;
+        margin: 0 auto;
+        /* display:block;*/
+    }
+    a {
+        text-decoration: none;
+    }
+    header {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+    #contentIndex {
+        width: 80%;
+        max-width: 1921px;
+        margin: 0 auto;
+    }
+    #testimg {
+        width: 100%;
+        margin-top: 0px;
+    }
+    nav {
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    #charslol {
+        display: none;
+    }
+    .bottom-image,
+    .top-image {
+        margin: 0 auto;
+    }
+    .bottom-image {
+        background-color: #777;
+    }
+    .top-image {
+        display: none;
+        background-color: #33a;
+    }
+    #teamdesc {
+        position: relative;
+        width: 75em;
+        height: auto;
+        margin: 0 auto;
+    }
+    .mangooArt {
+        width: 18em;
+        margin: 0 auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+
+    #mangooArtmain {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: center;
+        justify-content: space-between;
+    }
+    #imgTitle {
+        width: 70%;
+    }
+    .formulaire {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .formulaire h3 {
+        margin-bottom: 2em;
+        font-size: 1.2em;
+    }
+    input {
+        width: 100%;
+    }
+    #descInd {
+        width: 50%;
+        float: right;
+        margin-bottom: 2em;
+    }
+    #paraInd {
+        width: 62%;
+        float: right;
+        padding-right: 10px;
+        text-align: justify;
+    }
+    #paraInd h3 {
+        text-align: left;
+        padding-left: 0px;
+    }
+    #paraInd p {
+        text-align: left;
+        padding-left: 0px;
+        font-size: 0.8em;
+    }
+    #arrowIndex {
+        float: left;
+        width: 10%;
+        transform: rotate(180deg);
+        margin-left: -20em;
+        margin-bottom: 2em;
+    }
+    
+    .descHidem {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-bottom: 4em;
+    }
+    .descHidem p {
+        font-size: 0.8em;
+    }
+    .descHide {
+        width: 18em;
+        margin: 0 auto;
+    }
+    .descHide img {
+        border-radius: 50%;
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+    #teamDesk {
+        display: block;
+        width: 100%;
+        height: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    #servicesS {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #servicesS p {
+        font-size: 0.8em;
+        padding-left: 0px;
+        width: 50%;
+    }
+    #btnInfo {
+        width: 7em;
+        margin: 0 auto;
+        display: block;
+    }
+    #projetsS {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #testMain {
+        margin-top: 0px;
+    }
+    .testHome {
+        width: 25%;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        z-index: 10;
+        margin-top: -30em;
+        /* margin-left: 5em;*/
+        
+        margin-bottom: -3em;
+    }
+    .testHome2 {
+        width: 25%;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        z-index: 9;
+        margin-top: -21em;
+        margin-left: -4em;
+    }
+    
+   
+    
+    #BArrow{
+    display: block;
+    position: absolute;
+    width: 6em;
+    }
+    
+    #petroTest {
+        background-image: url(../img/pics/IMG_MP_Fond-Rose.png);
+        background-repeat: no-repeat;
+        /*background-position:bottom;*/
+        
+        background-position-y: 13em;
+        background-size: contain;
+        height: auto;
+    }
+    .mangooExtra {
+        display: none;
+    }
+    nav a.current {
+        color: #30fec1 !important;
+    }
+    #wrapperthks {
+        width: 900px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10em;
+    }
+    #thanks {
+        width: 50% margin: 0 auto;
+    }
+    #thanks img {
+        width: 50%;
+        height: auto;
+    }
+    #thanks p {
+        width: 50%;
+        height: auto;
+    }
+    #testpar {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 6em;
+        margin-bottom: 2em;
+    }
+    .mainForm {
+        width: 23em;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .contact {
+        width: 300px;
+        margin: 8.2em 0 0 5em;
+        float: left;
+        position: bottom;
+    }
+    .contact ul li {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        list-style: none;
+        text-align: justify;
+        margin: 0 auto;
+        margin-top: 0.5em;
+    }
+    ul {
+        display: inherit;
+    }
+    .contact ul li a img {
+        width: 2em;
+        height: auto;
+        margin-right: 1em;
+    }
+    #contactPform {
+        width: 100%;
+        list-style: none;
+        padding: 1em;
+        font-size: 1em;
+    }
+    #contactPform li {
+        text-align: left;
+    }
+    .socials {
+        display: inline-block;
+        list-style: none;
+    }
+    .socials a {
+        display: inline-block;
+        list-style: none;
+        width: 20px;
+    }
+    ul li a img {
+        width: 30px;
+        height: auto;
+    }
+    #projetsWrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #closeup {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    #closeupimg {
+        width: 100%;
+        height: auto;
+    }
+    
+    #closeupimg img {
+        margin-top: 0;
+    }
+    
+    #projetsPara p {
+        height: auto;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    #asavoir {
+        width: 20%;
+        height: 200px;
+        text-align: left;
+        margin-top: 7em;
+        margin-right: 2%;
+        padding-top: 4em;
+        float: left;
+    }
+    #asavoir p {
+        width: 40%;
+        font-size: 0.8em;
+        margin-top: 5em;
+    }
+    
+    #flecheprojets{
+        margin: auto;
+        position: relative;
+        margin-right: 2em;
+        float: right;
+        width: 4em;
+        transform: rotate(-10deg);
+    }
+    
+    .serviceImg {
+        z-index: 10;
+    }
+    .promo30 {
+        width: 25%;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        z-index: 9;
+        margin-top: -16em;
+        margin-left: -10em;
+        float: right;
+    }
+    .mangooArt h4 {
+        margin-top: 2em;
+        color: greenyellow;
+    }
+    #wrapper {
+        height: 100%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    #testServicesimg {
+        float: left;
+        width: 13em;
+        height: 26em;
+        display: block;
+        background-color: #666;
+        background-image: url(../img/pics/IMG_services_photos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #testServicesimg img {
+        height: 500px;
+        width: 400px;
+    }
+    #paraServices {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        /*  float: right;*/
+        
+        display: flex;
+        flex-direction: row;
+        /*    justify-content: center;
+        justify-content: space-between;*/
+        
+        justify-content: space-around;
+        margin-top: 3em;
+    }
+    #poneServices {
+        width: 32%;
+        height: 20em;
+        margin-right: 0px;
+        float: left;
+    }
+    #poneServices p {
+        width: 100%;
+    }
+    #poneServices h3 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #ptwoServices {
+        width: 30%;
+        float: left;
+        height: 20em;
+        margin-top: 0px;
+    }
+    #ptwoServices p {
+        width: 100%;
+    }
+    .content {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+    #projetsPara h3 {
+        margin-bottom: -1em;
+    }
+    #projetsPara h3 {
+        margin-left: 0px;
+    }
+    #buttonPack {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 1em;
+    }
+    #buttonConditions {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 1em;
+    }
+    #packs {
+        background-image: url("../img/pics/services.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 40em;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /*display:none;*/
+    }
+    #conditions {
+        background-image: url("../img/pics/services.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 40em;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        /*
+    align-items: center;
+    justify-content:space-between;
+*/
+        /* display:none;*/
+    }
+    .paraPacks {
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .paraPacks2 {
+        width: 30%;
+        height: 325px;
+        margin: 0 auto;
+        display: inline-block;
+        padding-right: 1.5em;
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+    #wrapperMangoo {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    #wrapperProjets {
+        height: 100%;
+        width: 80%;
+        min-width: 1417px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #wrapperServices {
+        height: 100%;
+        width: 80%;
+        min-width: 1490px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #wrapperContact {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 16em;
+    }
+    #work {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    @font-face {
+        font-family: "MenuPara";
+        src: url(../fonts/Raleway-Regular.ttf);
+    }
+    @font-face {
+        font-family: "Manuscrit";
+        src: url(../fonts/Prof._Jorge.ttf);
+    }
+    textarea {
+        width: 100%;
+    }
+    #work img {
+        width: 60%;
+        margin: 0 auto;
+        /* display:block;*/
+    }
+    #work p {
+        font-size: 100px;
+        text-align: center;
+        font-family: MenuPara;
+        text-decoration: underline;
+    }
+    @font-face {
+        font-family: "MenuPara";
+        src: url(../fonts/Raleway-Regular.ttf);
+    }
+    @font-face {
+        font-family: "Manuscrit";
+        src: url(../fonts/Prof._Jorge.ttf);
+    }
+    #lienManu {
+        font-family: Manuscrit;
+        font-size: 2em;
+        text-transform: lowercase;
+    }
+    #lienManu:visited {
+        color: #30fec1;
+    }
+    p {
+        font-family: MenuPara;
+        word-spacing: 2pt;
+    }
+    h1 h2 h3 {
+        font-family: MenuPara;
+    }
+    label {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #textServices {
+        text-align: left;
+    }
+    nav li a {
+        font-size: 1em;
+    }
+    nav ul {
+        padding: 40px 0;
+    }
+    #teamdesc p {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    #socialswtf {
+        width: 100%;
+        display: inherit;
+        margin-bottom: 2em;
+    }
+    #socialswtf img {
+        width: 1.5em;
+        height: auto;
+    }
+    .muted {
+        font-size: 0.6em;
+    }
+    .menu {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding-top: 2em;
+    }
+    .footer,
+    .push {
+        height: 20px;
+        /* .push must be the same height as .footer */
+    }
+    .footer {
+        bottom: 0px;
+        position: relative;
+        clear: both;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .footer ul li {
+        font-size: 0.7em;
+        display: inline-block;
+        padding: 0 2em;
+    }
+}
